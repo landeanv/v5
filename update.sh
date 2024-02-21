@@ -36,7 +36,8 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/landeanv/v1/main/menu/menu.zip
+    wgwt https://raw.githubusercontent.com/landeanv/v5/main/menu/menu/files/menu
+    wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
