@@ -36,6 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
+    wget https://raw.githubusercontent.com/landeanv/v5/main/update.sh
     wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
@@ -43,7 +44,6 @@ res1() {
     rm -rf menu
     rm -rf menu.zip
     rm -rf update.sh
-    wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu/menu
 }
 netfilter-persistent
 clear
