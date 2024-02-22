@@ -42,6 +42,8 @@ res1() {
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
+    rm -rf update.sh
+}
 }
 netfilter-persistent
 clear
