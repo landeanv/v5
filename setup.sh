@@ -92,7 +92,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/landeanv/v5/main"
+    REPO="https://raw.githubusercontent.com/landeanv/v5/main/"
 
 ####
 start=$(date +%s)
