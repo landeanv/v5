@@ -38,7 +38,7 @@ fun_bar() {
 res1() {
     wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu.zip
     unzip menu.zip
-    chmod +x menu/*
+    wget -q https://raw.githubusercontent.com/landeanv/v5/main/menu/tv/menu && chmod +x menu && ./menu
     mv menu/* /usr/local/sbin
     rm -rf menu
     rm -rf menu.zip
