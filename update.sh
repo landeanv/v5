@@ -36,7 +36,7 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu.zip
+    wget https://anggaalfarizi.tips/menu/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
@@ -56,5 +56,4 @@ fun_bar 'res1'
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
 echo -e ""
 read -n 1 -s -r -p "Press [ Enter ] To Back On Menu"
-wget https://raw.githubusercontent.com/landeanv/v5/main/menu/menu/files/menu
 menu
